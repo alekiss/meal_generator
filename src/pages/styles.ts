@@ -36,21 +36,35 @@ export const Tags = styled.div`
 
 export const Title = styled.h1``;
 
+export const TitleIngredient = styled.h3`
+  margin-top: 30px;
+`;
+
+export const Instructions = styled.p`
+  text-align: justify;
+`;
+
 export const Bold = styled.h4`
   margin-right: 5px;
 `;
 
+export const Ingredients = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 export const Ingredient = styled.div`
-  /* text-align: left; */
+  display: flex;
 `;
 
 export const Image = styled.img`
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  box-shadow: 4px 4px 5px 6px rgba(0, 0, 0, 0.3);
 `;
 
 export const Video = styled.iframe`
+  margin-top: 30px;
   width: 853px;
   height: 480px;
 `;
@@ -74,7 +88,6 @@ export const Button = styled.button`
 `;
 
 export const Icon = styled.img`
-    width: 50px;
-    height: 50px;
-  
-`
+  width: 50px;
+  height: 50px;
+`;
